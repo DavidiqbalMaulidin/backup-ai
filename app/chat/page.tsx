@@ -1,14 +1,17 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
-import { ChatContainer } from '@/components/chat/chat-container'
+import ChatLayout from '@/components/chat/chat-layout'
 
 export default async function ChatPage() {
   const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
 
   if (!user) {
     redirect('/auth/login')
   }
 
-  return <ChatContainer user={user} />
+  return <ChatLayout user={user} />
 }

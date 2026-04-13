@@ -22,14 +22,14 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-primary/20">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">Powered by Grok AI</span>
+            <span className="text-sm font-medium text-foreground">Made by @Daveeed_Iqbaaal</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance">
             <span className="text-foreground">Asisten AI untuk</span>
             <br />
-            <span className="gradient-text">Pelajar Indonesia</span>
+            <span className="gradient-text">Pelajar & Mahasiswa Indonesia</span>
           </h1>
 
           {/* Subtitle */}
@@ -65,11 +65,11 @@ export function HeroSection() {
           <div className="flex flex-wrap items-center justify-center gap-8 pt-12">
             <div className="flex items-center gap-2">
               <BookOpen className="w-5 h-5 text-primary" />
-              <span className="text-muted-foreground">SMP, SMA, SMK</span>
+              <span className="text-muted-foreground">Mahasiswa, SMP, SMA, SMK</span>
             </div>
             <div className="flex items-center gap-2">
               <Brain className="w-5 h-5 text-primary" />
-              <span className="text-muted-foreground">Semua Mata Pelajaran</span>
+              <span className="text-muted-foreground">Semua Mata Kuliah dan Pelajaran</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-primary" />

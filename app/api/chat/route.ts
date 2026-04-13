@@ -3,7 +3,7 @@ import { createGroq } from '@ai-sdk/groq'
 import type { NextRequest } from 'next/server'
 
 const groq = createGroq({
-  apiKey: process.env.GROQ_API_KEY,
+  apiKey: process.env.XAI_API_KEY,
 })
 
 export async function POST(request: NextRequest) {
@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
 
     const result = streamText({
       model: groq('llama-3.3-70b-versatile'),
-      system: `Kamu adalah IqDav Assistant, asisten AI pintar yang dirancang khusus untuk membantu pelajar Indonesia (SMP, SMA, SMK) dalam belajar.
+      system: `Kamu adalah IqDav Assistant, asisten AI pintar yang dirancang khusus untuk membantu pelajar Indonesia (SMP, SMA, SMK, Mhasiswa) dalam belajar.
 
 Karakteristik kamu:
 - Ramah, sabar, dan supportive seperti teman belajar

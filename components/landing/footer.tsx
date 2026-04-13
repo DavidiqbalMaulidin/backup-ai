@@ -78,7 +78,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            2024 IqDav Assistant. Made with love for Indonesian students.
+            2024 IqDav Assistant. Made by @daveeed_iqbaaal.
           </p>
         </div>
       </div>

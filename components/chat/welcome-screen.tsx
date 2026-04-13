@@ -11,39 +11,29 @@ const quickActions = [
   {
     icon: Calculator,
     label: 'Matematika',
-    prompt: 'Jelaskan cara menghitung luas lingkaran dengan contoh soal',
+    prompt: 'Jelaskan turunan dasar dan berikan contoh soal beserta langkah penyelesaiannya',
     color: 'from-blue-500 to-cyan-500',
-  },
-  {
-    icon: FlaskConical,
-    label: 'Kimia',
-    prompt: 'Apa itu reaksi redoks? Berikan contoh dalam kehidupan sehari-hari',
-    color: 'from-green-500 to-emerald-500',
-  },
-  {
-    icon: Globe,
-    label: 'Bahasa Inggris',
-    prompt: 'Jelaskan perbedaan Simple Past dan Present Perfect dengan contoh',
-    color: 'from-orange-500 to-amber-500',
   },
   {
     icon: Code,
     label: 'Pemrograman',
-    prompt: 'Jelaskan konsep dasar HTML dan CSS untuk membuat website',
+    prompt: 'Jelaskan konsep dasar pemrograman (variabel, loop, function) dengan contoh di JavaScript',
     color: 'from-purple-500 to-pink-500',
   },
   {
     icon: BookOpen,
-    label: 'Sejarah',
-    prompt: 'Ceritakan tentang proklamasi kemerdekaan Indonesia 17 Agustus 1945',
-    color: 'from-red-500 to-rose-500',
+    label: 'Algoritma',
+    prompt: 'Jelaskan apa itu algoritma dan berikan contoh pseudocode sederhana untuk mencari nilai terbesar dalam array',
+    color: 'from-indigo-500 to-blue-500',
   },
+
   {
-    icon: PenTool,
-    label: 'Bahasa Indonesia',
-    prompt: 'Bagaimana cara membuat paragraf argumentasi yang baik?',
-    color: 'from-teal-500 to-cyan-500',
+    icon: Globe,
+    label: 'Bahasa Inggris',
+    prompt: 'Jelaskan perbedaan Simple Past dan Present Perfect serta contoh kalimatnya',
+    color: 'from-orange-500 to-amber-500',
   },
+
 ]
 
 export function WelcomeScreen({ userName, onQuickAction }: WelcomeScreenProps) {

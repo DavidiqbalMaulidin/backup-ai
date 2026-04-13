@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: 'IqDav Assistant - AI Asisten Pintar untuk Pelajar Indonesia',
-  description: 'IqDav Assistant adalah AI chatbot canggih yang dirancang khusus untuk membantu pelajar SMP, SMA, dan SMK Indonesia dalam belajar. Powered by Grok AI.',
+  description: 'IqDav Assistant adalah AI chatbot canggih yang dirancang khusus untuk membantu Mahasiswa dan pelajar SMP, SMA, dan SMK Indonesia dalam belajar.',
   keywords: ['AI', 'chatbot', 'pelajar', 'SMP', 'SMA', 'SMK', 'Indonesia', 'belajar', 'assistant'],
   authors: [{ name: 'IqDav Team' }],
   openGraph: {
